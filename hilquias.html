@@ -57,6 +57,53 @@
                     </p>
                 </fieldset>
 
+                <br>
+
+                <fieldset>
+
+                    <legend><strong>Detalhes do Destino e Datas</strong></legend>
+                    
+                    <p>
+
+                        <label for="origem">Origem:</label> <br>
+                        <input type="text" id="origem" name="origem" value="João Pessoa, Paraíba" required>
+                    
+                    </p>
+
+                    <p>
+
+                        <label for="destino">Destino:</label> <br>
+                        <input type="text" id="destino" name="destino" placeholder="Para onde você quer ir?" required>
+                    
+                    </p>
+
+                    <p>
+
+                        <label for="dataEntrada">Entrada (Check-in):</label>
+                        <input type="date" id="dataEntrada" name="dataEntrada" required>
+
+                        &nbsp;&nbsp;
+
+                        <label for="data-saida"> Saída (Check-out):</label>
+                        <input type="date" id="data-saida" name="data-saida" required>
+                    </p>
+
+                        
+                        <select id="destino" name="destino" required>
+
+                            <option value="">Selecione um destino</option>
+                            <option value="pernambuco">Fernando de Noranha - PE</option>
+                            <option value="maranhao">Lençóis Maranhanses - MA</option>
+                            <option value="bahia">Chapada Diamantina - BA</option>
+                            <option value="pernambuco">Porto de Galinhas - PE</option>
+                            <option value="ceara">Jericoacoara - CE</option>
+
+                        </select>
+
+
+                    </p>
+                </fieldset>
+
 
             </form>
         </section>
