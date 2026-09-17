@@ -13,11 +13,11 @@
         <nav>
             <table width="100%" border = "0" cellpadding="8" cellspacing="0">
                 <tr align="center" valign = "center">
-                    <td><a href="index.html">Início</a></td>
+                    <td><a href="Index.html">Início</a></td>
                     <td><a href="Destinos.html">Destinos</a></td>
                     <td><a href="ruan.html">Passeios</a></td>
                     <td><a href="rafael.html">Melhores Combos</a></td>
-                    <td><a href="planejamento.html">Planeje sua viagem</a></td>
+                    <td><a href="Planejamento.html">Planeje sua viagem</a></td>
                     <td><a href="guilherme.html">Cadastre-se já</a></td>
                 </tr>
             </table>
@@ -75,25 +75,26 @@
                 <br>
 
                 <fieldset>
-
                     <legend><strong>Detalhes do Destino e Datas</strong></legend>
                     
                     <p>
-
                         <label for="origem">Origem:</label> <br>
                         <input type="text" id="origem" name="origem" value="João Pessoa, Paraíba" required>
-                    
                     </p>
 
                     <p>
-
                         <label for="destino">Destino:</label> <br>
-                        <input type="text" id="destino" name="destino" placeholder="Para onde você quer ir?" required>
-                    
+                        <select id="destino" name="destino" required>
+                            <option value="">Selecione um destino</option>
+                            <option value="pernambuco">Fernando de Noranha - PE</option>
+                            <option value="maranhao">Lençóis Maranhanses - MA</option>
+                            <option value="bahia">Chapada Diamantina - BA</option>
+                            <option value="pernambuco">Porto de Galinhas - PE</option>
+                            <option value="ceara">Jericoacoara - CE</option>
+                        </select>
                     </p>
 
                     <p>
-
                         <label for="dataEntrada">Entrada (Check-in):</label>
                         <input type="date" id="dataEntrada" name="dataEntrada" required>
 
@@ -102,11 +103,8 @@
                         <label for="data-saida"> Saída (Check-out):</label>
                         <input type="date" id="data-saida" name="data-saida" required>
                     </p>
-                    
-                    
             
                     <p>
-                        
                         <label for="passageiros">Passageiros:</label>
                         <select id="passageiros" name="passageiros">
                             <option value="1">1 adulto</option>
@@ -124,34 +122,14 @@
                             <option value="3">3+ quartos</option>
                         </select>
                     </p>
-
-                        
-                        <select id="destino" name="destino" required>
-
-                            <option value="">Selecione um destino</option>
-                            <option value="pernambuco">Fernando de Noranha - PE</option>
-                            <option value="maranhao">Lençóis Maranhanses - MA</option>
-                            <option value="bahia">Chapada Diamantina - BA</option>
-                            <option value="pernambuco">Porto de Galinhas - PE</option>
-                            <option value="ceara">Jericoacoara - CE</option>
-
-                        </select>
-
-
-                    </p>
                 </fieldset>
-
-                <br>
-                
-                <hr>
-
-
             </form>
         </section>
+    <hr>
     </main>
 
-    <footer center>
-        <p>&copy; 2026 Explore Planejamento da viagem - Trabalho de HTML da Unidade 1</p>
+    <footer>
+        <p>&copy; 2026 Melhor Viagem - Trabalho de HTML da Unidade 1</p>
     </footer>
 </body>
 </html>
