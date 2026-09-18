@@ -1,1 +1,196 @@
-# pode dxr esse arquivo aq mesmo, vou usar pra fazer um formulario de cadastro
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastre-se - Melhor Viagem</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 align="center">Melhor Viagem</h1>
+        <hr>
+
+        <nav>
+            <table width="100%" border="0" cellpadding="10" cellspacing="5">
+                <tr align="center" valign="center">
+                    <td width="25%"><a href="index.html">Início</a></td>
+                    <td width="25%"><a href="Destinos.html">Destinos</a></td>
+                    <td width="25%"><a href="rafael.html">Melhores Combos</a></td>
+                    <td width="25%"><a href="Planejamento.html">Planeje sua viagem</a></td>
+                </tr>
+            </table>
+        </nav>
+
+        <hr>
+    </header>
+
+
+    <main>
+
+        <h1 align="center">Crie sua conta</h1>
+        <h2>Cadastro de Cliente</h2>
+        <p>
+            Preencha o formulário abaixo para criar sua conta na Melhor Viagem
+            e aproveitar nossas opções de destinos, passeios e combos.
+        </p>
+
+        <hr>
+
+        <section>
+
+            <h3>Formulário de Cadastro</h3>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend><strong>1. Dados Pessoais</strong></legend>
+
+                    <table width="100%" cellpadding="5" cellspacing="0">
+
+                        <tr>
+                            <td >
+                                <label for="nome">Nome Completo:</label><br>
+                                <input type="text" id="nome" name="nome"
+                                    required placeholder="Digite seu nome completo">
+                            </td>
+
+                            <td >
+                                <label for="nascimento">Data de nascimento:</label><br>
+                                <input type="date" id="nascimento" name="nascimento" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="email">E-mail:</label><br>
+                                <input type="email" id="email" name="email"
+                                    required placeholder="email@email.com">
+                            </td>
+
+                            <td>
+                                <label for="telefone">Telefone:</label><br>
+                                <input type="tel" id="telefone" name="telefone"
+                                    required placeholder="(83) 99999-9999">
+                            </td>
+                        </tr>
+
+                    </table>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+
+                    <legend><strong>2. Endereço</strong></legend>
+
+                    <table width="100%" cellpadding="5" cellspacing="0">
+                        <tr>
+                            <td>
+                                <label for="cep">CEP:</label><br>
+                                <input type="text" id="cep" name="cep"
+                                    required placeholder="00000-000">
+                            </td>
+
+                            <td>
+                                <label for="numero">Número:</label><br>
+                                <input type="text" id="numero" name="numero"
+                                    required placeholder="Número da residência">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <label for="rua">Rua:</label><br>
+                                <input type="text" id="rua" name="rua"
+                                    required placeholder="Digite o nome da rua"
+                                    size="60">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="bairro">Bairro:</label><br>
+                                <input type="text" id="bairro" name="bairro"
+                                    required placeholder="Digite seu bairro">
+                            </td>
+
+                            <td>
+                                <label for="complemento">Complemento:</label><br>
+                                <input type="text" id="complemento" name="complemento"
+                                    placeholder="Apartamento, bloco, etc.">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="cidade">Cidade:</label><br>
+                                <input type="text" id="cidade" name="cidade"
+                                    required placeholder="Digite sua cidade">
+                            </td>
+
+                            <td>
+                                <label for="estado">Estado:</label><br>
+                                <input type="text" id="estado" name="estado"
+                                    required placeholder="Digite seu estado"> 
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+
+                </fieldset>
+                <br>
+                
+                <br>
+                <fieldset>
+
+                    <legend><strong>3. Criação da Conta</strong></legend>
+                    <table width="100%" cellpadding="5" cellspacing="0">
+
+                        <tr>
+                            <td>
+                                <label for="senha">Senha:</label>
+                                <br>
+                                <input type="password"
+                                    id="senha"
+                                    name="senha"
+                                    required
+                                    placeholder="Digite sua senha">
+
+                            </td>
+                            <td>
+
+                                <label for="confirmarSenha">
+                                    Confirmar senha:
+                                </label>
+
+                                <br>
+                                <input type="password"
+                                    id="confirmarSenha"
+                                    name="confirmarSenha"
+                                    required
+                                    placeholder="Digite sua senha novamente">
+                            </td>
+
+                        </tr>
+                    </table>
+                </fieldset>
+
+                <br>
+                <p align="center">
+                    <input type="submit" value="Criar minha conta">
+                    &nbsp;&nbsp;&nbsp;
+                </p>
+            </form>
+        </section>
+        <hr>
+    </main>
+    <footer>
+
+        <p align="center">
+            &copy; 2026 Melhor Viagem - Trabalho de HTML da Unidade 1
+        </p>
+    </footer>
+</body>
+</html>
